@@ -320,7 +320,7 @@ void Game::processMatches()
     int matchScore = board.removeMatchesAndCalculateScore();
     score += matchScore;
 
-   // board.applyGravity();
+    board.applyGravity();
     board.refillBoard();
 
     // verifica si hay mas matches despues de rellenar 

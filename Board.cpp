@@ -140,7 +140,7 @@ int Board::removeMatchesAndCalculateScore()
 }
 
 
-/* descomentar para hacer la animacion de gravedad, revisar .h
+
 void Board::applyGravity()
 {
     for (int col = 0; col < BOARD_SIZE; ++col)
@@ -162,7 +162,7 @@ void Board::applyGravity()
         }
     }
 }
-*/
+
 
 
 void Board::refillBoard() // llena los espacios vacios con nuevas gemas

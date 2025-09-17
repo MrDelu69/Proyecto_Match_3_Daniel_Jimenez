@@ -23,7 +23,7 @@ public:
     void getGemCoordinates(const sf::Vector2f& position, int& row, int& col) const;
     bool hasValidMoves() const;
 
-    // void applyGravity(); // descomentar para hacer la animacion de gravedad
+     void applyGravity();
 
 
 

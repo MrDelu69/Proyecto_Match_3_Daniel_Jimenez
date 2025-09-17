@@ -1,5 +1,5 @@
 #include "Board.h"
-
+#include <random>
 Board::Board() : boardOffset(100, 50) //Con el board offset se centra el tablero
 {
     for (int i = 0; i < BOARD_SIZE; ++i)

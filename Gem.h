@@ -1,7 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include <random>
 using namespace std;
 
 class Gem
